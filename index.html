@@ -5,34 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to KokoaClone</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="topbar">
-      <div class="topbar__box">
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span>No Service</span>
-        <!-- Input Wifi Icon -->
+        <i class="fas fa-wifi fa-lg"></i>
       </div>
-      <div class="topbar__box">
+      <div class="status-bar__column">
         <span>18:43</span>
       </div>
-      <div class="topbar__box">
+      <div class="status-bar__column">
         <span>100%</span>
-        <!-- Input Battery Icon -->
-        <!-- Input Bolt Icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt fa-lg"></i>
       </div>
     </div>
-    <header class="index__header">
+    <header class="welcome__header">
       <h1>Welcome to KokoaClone</h1>
-      <p>
-        If you have a Kokoa Account, log in with your email or phone number.
-      </p>
+      <p>If you have a Kokoa Account,</p>
+      <p>log in with your email or phone number.</p>
     </header>
-    <form class="index__loginform">
+    <form class="login-form">
       <input type="text" placeholder="Email or phone number" />
       <input type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
     </form>
-    <button class="index__loginform" href="#">Sign Up</button>
-    <a class="index__loginform" href="#">Find Kokoa Account or Password</a>
+    <script
+      src="https://kit.fontawesome.com/500d028050.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
