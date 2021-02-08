@@ -23,23 +23,31 @@
 }
 .login-form input {
   height: 60px;
-
   font-size: 1.2rem;
-
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
   box-sizing: border-box;
 }
-.login-form input::placeholder {
-  font-size: 1.2rem;
-  color: rgba(0, 0, 0, 0.4);
+.login-form input:nth-child(2) {
+  margin-bottom: 50px;
 }
-.login-form input[type="submit"] {
-  margin-top: 20px;
-  padding-bottom: 5px;
-  border-radius: 5px;
-  border-bottom: none;
-  font-size: 1.3rem;
+.login-form input::placeholder {
+  font-size: 1.25rem;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.3);
+}
+.sign-up,
+.login-form input[type="submit"] {
+  margin-top: -10px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border-bottom: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.sign-up {
+  height: 60px;
+  margin-bottom: 20px;
 }
