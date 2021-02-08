@@ -4,60 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KokoaClone Friends</title>
+    <title>Friends - KokoaClone</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- topbar Here -->
-    <header class="friends__header">
-      <h1>Friends</h1>
-      <div class="friends__header__btn">
-        <!-- Input Icon function button Search -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi fa-lg"></i>
       </div>
-      <div class="friends__header__btn">
-        <!-- Input Icon funtion button anchor Music Tab -->
+      <div class="status-bar__column">
+        <span>18:43</span>
       </div>
-      <div class="friends__header__btn">
-        <!-- Input Icon function button anchor Setting Tab -->
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt fa-lg"></i>
       </div>
-    </header>
-    <main>
-      <div class="friends__friends__top">
-        <!-- Input ! Icon -->
-        <p>Friends' Names Display</p>
-        <!-- Input > Icon -->
-      </div>
-      <div class="friends__friends">
-        <div>
-          <!-- Input Image -->
-          <span>Me</span>
-        </div>
-      </div>
-      <div class="friends__channels__top">
-        <span>Channel</span>
-        <!--Input ^ Icon -->
-      </div>
-      <div class="friends__channels">
-        <div>
-          <!-- Input Image -->
-          <span>Channel</span>
-          <span>2</span>
-          <!-- Input > Icon -->
-        </div>
-      </div>
-    </main>
-    <nav>
-      <div class="nav__box">
-        <!-- Input Person Icon -->
-      </div>
-      <div class="nav__box">
-        <!-- Input Talk Balloon Icon -->
-      </div>
-      <div class="nav__box">
-        <!-- Input search Icon -->
-      </div>
-      <div class="nav__box">
-        <!-- Input 3dot Icon -->
-      </div>
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="" class="nav__link"><i class="far fa-comment fa-2x"></i></a>
+          <span class="notification-number">1</span>
+        </li>
+        <li class="nav__btn">
+          <a href="" class="nav__link">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a href="" class="nav__link"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+          <img src="img/notification-dot.png" class="notification-dot" />
+        </li>
+      </ul>
     </nav>
+
+    <script
+      src="https://kit.fontawesome.com/500d028050.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
