@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - KokoaClone</title>
+    <title>Find - KokoaClone</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -23,58 +23,43 @@
       </div>
     </section>
     <header class="screen-header">
-      <div class="screen-header__column"><h1>Friends</h1></div>
+      <div class="screen-header__column"><h1>Find</h1></div>
       <div class="screen-header__column">
         <span><i class="fas fa-search fa-lg"></i></span
-        ><span><i class="fas fa-music fa-lg"></i></span
-        ><span><i class="fas fa-cog fa-lg"></i></span>
+        ><span
+          ><i class="fas fa-cog fa-lg"></i
+          ><img src="img/notification-dot.png" class="find__cog-dot"
+        /></span>
       </div>
     </header>
-    <section class="friends-display-option">
-      <p>
-        <i class="fas fa-info-circle"></i>Friends' Names Display<i
-          class="fas fa-chevron-right"
-        ></i>
-      </p>
-    </section>
-    <section class="friends__me-tab">
-      <div class="user-component">
-        <div class="user-component__front">
-          <img src="img/default-user.jpg" class="user-component__img--big" />
-          <div class="user-component__text">
-            <h4 class="user-component__title">이성규</h4>
-          </div>
-        </div>
+    <section class="add-friends-tab">
+      <div class="add-method">
+        <span><i class="fas fa-qrcode fa-3x"></i></span>
+        <h4>QR Code</h4>
       </div>
-    </section>
-    <section class="friends__channel-tab">
-      <div class="friends__fold-tab">
-        <div><span> Channel </span></div>
-        <div>
-          <span><i class="fas fa-chevron-up"></i></span>
-        </div>
+      <div class="add-method">
+        <span><i class="fas fa-address-book fa-3x"></i></span>
+        <h4>Add by</h4>
+        <h5>Contacts</h5>
       </div>
-      <div class="user-component">
-        <div class="user-component__front">
-          <img class="user-component__img--small" src="img/default-user.jpg" />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Channel</h4>
-          </div>
-        </div>
-        <div class="user-component__rear">
-          <p>2 <i class="fas fa-chevron-right"></i></p>
-        </div>
+      <div class="add-method">
+        <span id="id-icon">ID</span>
+        <h4>Add by ID</h4>
+      </div>
+      <div class="add-method">
+        <span><i class="far fa-envelope fa-3x"></i></span>
+        <h4>Invite</h4>
       </div>
     </section>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
           <a href="friends.html" class="nav__link"
-            ><i class="fas fa-user fa-2x"></i
+            ><i class="far fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
-          <a href="" class="nav__link"><i class="far fa-comment fa-2x"></i></a>
+          <a href="" class="nav__link"><i class="fas fa-comment fa-2x"></i></a>
           <span class="notification-number">1</span>
         </li>
         <li class="nav__btn">
