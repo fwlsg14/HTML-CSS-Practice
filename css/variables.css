@@ -1,4 +1,7 @@
 :root {
   --main-color: #faeb76;
   --horizontal-space: 25px;
+  --default-font-color: #191919;
+  --light-font-color: #a8a8a8;
+  --border-light: 1px solid var(--light-font-color);
 }

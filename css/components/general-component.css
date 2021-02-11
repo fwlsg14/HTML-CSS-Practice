@@ -1,0 +1,4 @@
+.divider-bar--light {
+  margin: 10px 0px;
+  border-top: var(--border-light);
+}

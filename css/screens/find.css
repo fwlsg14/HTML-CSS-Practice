@@ -7,7 +7,7 @@
 .add-friends-tab {
   display: flex;
   justify-content: space-between;
-  padding: 0px 35px;
+  padding: 10px 35px;
 }
 .add-method {
   display: flex;
@@ -16,7 +16,7 @@
   font-weight: 600;
 }
 .add-method h4 {
-  margin-top: 8px;
+  margin-top: 15px;
 }
 #id-icon {
   display: flex;
@@ -27,4 +27,24 @@
   width: 40px;
   height: 40px;
   border-radius: 30px;
+}
+.find-tab {
+  padding: 15px var(--horizontal-space);
+  color: var(--light-font-color);
+}
+.find-tab__top-bar {
+  border-top: var(--border-light);
+  display: flex;
+  justify-content: space-between;
+}
+.find-tab__top-bar h6 {
+  margin: 20px 0px;
+}
+.find-tab__recommended-friends {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 600;
 }

@@ -8,9 +8,9 @@
   color: rgba(200, 200, 200, 0.9);
 }
 .friends__me-tab {
-  padding: 0px var(--horizontal-space);
+  margin: 0px var(--horizontal-space);
   padding-bottom: 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: var(--border-light);
 }
 .friends__channel-tab {
   padding: 15px var(--horizontal-space);
@@ -19,7 +19,7 @@
   padding-right: 5px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.4);
+  color: var(--light-font-color);
   font-weight: 600;
   font-size: 0.85rem;
 }
